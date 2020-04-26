@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.text-content {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+}
+
+.information-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #003E5D;
+}
+
+.information-wrapper .container .heading h3 {
+    font-weight: normal;
+    margin-top: -15px;
+}
+
+.information-wrapper .container .heading h3,
+h2 {
+    color: #fff;
+}
+
+.information-wrapper .container .heading p {
+    color: #CCCCCC;
+}
+
+.heading hr {
+    border: 2px solid #FF3D39;
+    border-radius: 5px;
+    width: 20%;
+    margin-top: -10px;
+}
+
+.livedata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card:nth-child(1) {
+    background-color: #FFAA39;
+    color: #fff;
+}
+
+.card:nth-child(2) {
+    background-color: #00A4A0;
+    color: #fff;
+}
+
+.card:nth-child(3) {
+    background-color: #FF3D39;
+    color: #fff;
+}
+
+.card-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card-circle img {
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.25), 0 7px 18px rgba(0, 0, 0, 0.22);
+}
+
+/* .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+} */
+
+.container .title {
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  font-size: 70px;
+}
+
+.container h1 {
+    font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
+}
+
+.container .corona-text {
+  font-style: italic;
+}
+
+.top-wrapper {
+    padding: 100px 0 50px 0;
+    background-image: url(https://image.freepik.com/free-photo/coronavirus-infection-with-copy-space_23-2148473749.jpg);
+    /* background-image: url(https://cdn.pixabay.com/photo/2020/03/16/16/29/virus-4937553_960_720.jpg); */
+    background-size: cover;
+    opacity: 1;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.covid {
+  background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+    margin-right: 10px;
+}
+
+.instagram {
+  background-color: #e17055;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    /* Ubah position ke fixed, dan top ke 0 */
+    position: fixed;
+    top: 0;
+    /* Ubah z-index ke 10 */
+    z-index: 10;
+}
+
+.logo {
+    height: 45px;
+    width: auto;
+    /* margin-top: 20px; */
+}
+
+.header-left {
+  float: left;
+  height: 65px;
+  width: auto;
+  padding: 10px;
+  background-color: #CDDC39;
+}
+
+.logo {
+  float: left;
+}
+
+.logo-text {
+  float: left;
+  padding: 5px 5px;
+  color: black;
+  display: block;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  color: white;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.header-right a:hover {
+  line-height: 65px;
+  padding: 0 25px;
+  color: grey;
+  display: block;
+}
+
+header .menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson-wrapper .container .heading h2 {
+    color: black;
+}
+
+.heading {
+  padding: 30px 0;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.sumber {
+  margin-top: 30px;
+}
+
+.refference {
+  padding: 15px 40px;
+  background-color: #CDDC39;
+  cursor: pointer;
+  box-shadow: 0 7px #4CAF50;
+}
+
+.refference:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  padding-top: 25px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left img {
+  width: 125px;
+}
+
+.footer-left p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right .link {
+  float: left;
+}
+
+.footer-right img {
+  height: 65px;
+  width: auto;
+  margin: 0 20px;
+}
+
+.link:hover img {
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}

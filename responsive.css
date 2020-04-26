@@ -1,0 +1,103 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .lesson {
+        width: 50%;
+    }
+
+    .lesson-wrapper {
+        height: auto;
+    }
+
+    .lesson-icon:hover {
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+    }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    footer {
+      text-align: center;
+    }
+
+    .footer-left {
+      width: auto;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-wrapper p {
+        text-align: center;
+    }
+
+    .facebook {
+        margin-bottom: 10px;
+    }
+
+    .twitter {
+        margin-bottom: 10px;
+    }
+
+    .top-wrapper {
+        text-align: left;
+    }
+
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+        display: none;
+    }
+
+    /* Tambahkan CSS untuk menu-icon */
+    header .menu-icon {
+        display: block;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .container .title {
+      text-align: center;
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sumber .refference {
+        width: 100%;
+    }
+
+    .lesson {
+      width: 100%;
+    }
+
+    .lesson-wrapper {
+        height: auto;
+    }
+
+    .lesson-icon:hover {
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+}
